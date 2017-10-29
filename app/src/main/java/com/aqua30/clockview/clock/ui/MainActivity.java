@@ -9,13 +9,13 @@ import android.view.View;
 import android.view.ViewTreeObserver;
 
 import com.aqua30.clockview.R;
-import com.aqua30.clockview.clock.drawings.CircleView;
+import com.aqua30.clockview.clock.drawings.ClockView;
 
 import butterknife.BindView;
 
 public class MainActivity extends BaseActivity {
 
-    @BindView(R.id.circleView)CircleView clockView;
+    @BindView(R.id.circleView)ClockView clockView;
 
     private int seconds = 0;
     private TickerThread tickerThread;

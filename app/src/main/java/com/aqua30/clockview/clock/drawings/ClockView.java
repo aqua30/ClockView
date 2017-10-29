@@ -40,7 +40,7 @@ import static com.aqua30.clockview.clock.drawings.ClockConstants.offsetIntervalA
  * Created by Saurabh 2017.
  */
 
-public class CircleView extends View implements ValueAnimator.AnimatorUpdateListener, View.OnTouchListener {
+public class ClockView extends View implements ValueAnimator.AnimatorUpdateListener, View.OnTouchListener {
 
     @BindColor(R.color.black)int black;
     @BindColor(R.color.colorPrimary)int blue;
@@ -68,12 +68,12 @@ public class CircleView extends View implements ValueAnimator.AnimatorUpdateList
     
     private int minutesCounter = 0, secondsCounter = 0;
 
-    public CircleView(Context context) {
+    public ClockView(Context context) {
         super(context);
         init();
     }
 
-    public CircleView(Context context, @Nullable AttributeSet attrs) {
+    public ClockView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init();
     }
