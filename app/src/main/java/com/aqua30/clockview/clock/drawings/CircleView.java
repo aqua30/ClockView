@@ -37,7 +37,7 @@ import static com.aqua30.clockview.clock.drawings.ClockConstants.minRotationAngl
 import static com.aqua30.clockview.clock.drawings.ClockConstants.offsetIntervalAngle;
 
 /**
- * Created by HawkSafety(saurabh@hawksafety.com) on 11-10-2017.
+ * Created by Saurabh 2017.
  */
 
 public class CircleView extends View implements ValueAnimator.AnimatorUpdateListener, View.OnTouchListener {

@@ -3,7 +3,7 @@ package com.aqua30.clockview.clock.controller;
 import android.util.Log;
 
 /**
- * Created by HawkSafety(saurabh@hawksafety.com) on 27-10-2017.
+ * Created by Saurabh 2017.
  */
 
 public class Util {

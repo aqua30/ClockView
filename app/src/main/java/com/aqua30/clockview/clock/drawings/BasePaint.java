@@ -3,7 +3,7 @@ package com.aqua30.clockview.clock.drawings;
 import android.graphics.Paint;
 
 /**
- * Created by HawkSafety(saurabh@hawksafety.com) on 26-10-2017.
+ * Created by Saurabh 2017.
  */
 
 public class BasePaint {
