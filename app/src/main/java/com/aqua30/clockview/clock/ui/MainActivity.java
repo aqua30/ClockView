@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewTreeObserver;
 
 import com.aqua30.clockview.R;
+import com.aqua30.clockview.clock.controller.TickerThread;
 import com.aqua30.clockview.clock.drawings.ClockView;
 
 import butterknife.BindView;

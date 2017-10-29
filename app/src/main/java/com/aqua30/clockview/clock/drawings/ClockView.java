@@ -131,13 +131,12 @@ public class ClockView extends View implements ValueAnimator.AnimatorUpdateListe
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        Util.Log("onDraw");
         /* drawing the cover circle for clock */
         canvas.drawPath(clockCover.getPath(), clockCoverPaint.getPaint());
         /* center point of clock */
-        canvas.drawCircle(clockCenter.getCoordinates().getCood_X(),
-                clockCenter.getCoordinates().getCood_Y(),
-                clockCenter.getRadius(),
-                clockCenterPaint.getPaint());
+        canvas.drawCircle(clockCenter.getCoordinates().getCood_X(), clockCenter.getCoordinates().getCood_Y(),
+                clockCenter.getRadius(), clockCenterPaint.getPaint());
         /* finally drawing the interval lines */
         for (Interval interval : intervals) {
             canvas.drawLine(interval.getIntervalLine().getStartXY().getCood_X(),
@@ -152,10 +151,8 @@ public class ClockView extends View implements ValueAnimator.AnimatorUpdateListe
                     intervalHeadingPaint.getPaint());
         }
         /* drawing the secondsTicker */
-        canvas.drawLine(secondsTicker.getStartXY().getCood_X(),
-                secondsTicker.getStartXY().getCood_Y(),
-                secondsTicker.getEndXY().getCood_X(),
-                secondsTicker.getEndXY().getCood_Y(),
+        canvas.drawLine(secondsTicker.getStartXY().getCood_X(), secondsTicker.getStartXY().getCood_Y(),
+                secondsTicker.getEndXY().getCood_X(), secondsTicker.getEndXY().getCood_Y(),
                 secondsTickerPaint.getPaint());
         /* drawing the minutesTicker */
         canvas.drawLine(minutesTicker.getStartXY().getCood_X(),

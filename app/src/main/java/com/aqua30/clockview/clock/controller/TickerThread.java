@@ -1,4 +1,4 @@
-package com.aqua30.clockview.clock.ui;
+package com.aqua30.clockview.clock.controller;
 
 import android.os.Handler;
 import android.os.HandlerThread;
